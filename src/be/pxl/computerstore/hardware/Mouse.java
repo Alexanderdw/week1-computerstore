@@ -1,8 +1,12 @@
 package be.pxl.computerstore.hardware;
 
-public class Mouse {
+public class Mouse extends Peripheral{
 
 	public Mouse(String vendor, String name, double price) {
+		super();
+		this.setVendor(vendor);
+		this.setName(name);
+		this.setPrice(price);
 	}
 
 }
